@@ -30,7 +30,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
             NSC
-            <i class="boxIcon" class="fas fa-box-open" />
+            <i class="fas fa-box-open" />
           </Link>
           <div class="menu-icon" onClick={handleClick}>
             <i class={click ? "fas fa-times" : "fas fa-bars"} />
